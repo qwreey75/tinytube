@@ -10,7 +10,7 @@ and it actually doesn't take many space of your computer resource; ~~but it will
 
 # Dependent
 
-You should install python and yt-dlp for youtube audio download.
+You should install python and yt-dlp for youtube audio download.  
 and you should install ffmpeg for playing. just install it!
 
 ```sh
@@ -22,7 +22,25 @@ sudo apt install python3 python3-pip ffmpeg -y ; pip install yt-dlp
 just clone this repo and move cwd to repo. and enter command
 ```
          URL OF VIDEO   TIME(Option)
-./run.sh "YOUTUBE URL"  100
+$ ./run.sh "YOUTUBE URL"  100
+
+e. )
+$ ./run.sh "https://www.youtube.com/watch?v=EkRuV-h6Bv0"
+
+e. )
+$ ./run.sh "https://www.youtube.com/watch?v=EkRuV-h6Bv0" 100
+
 ```
 
 that's all! nothing more to describle
+
+# How it work?
+
+i just used ffplay for playing webm and yt-dlp for download audio file. it simple  
+just open ./run.sh file for see how it working
+
+```
+vim run.sh
+```
+
+
